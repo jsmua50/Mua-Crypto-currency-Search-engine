@@ -1,5 +1,6 @@
 
-
+  You need to extract the file
+  
 # 💰 MUA Coin App
 
 Welcome to the **MUA Coin App**, a full-featured desktop cryptocurrency wallet and mining interface, complete with a privacy-first search engine — **DuckMUA**.
