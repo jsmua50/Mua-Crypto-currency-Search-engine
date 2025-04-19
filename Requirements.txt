@@ -1,0 +1,76 @@
+# 📦 MUA Coin App – Installation & Requirements
+
+Welcome to the official MUA Coin App! This guide will help you install and run the app on **Windows**, **macOS**, or **Linux** with ease.
+
+---
+
+## 📋 Requirements
+
+Before running the app, ensure you have:
+
+- **Python ≥ 3.10** installed
+- Internet connection for wallet syncing
+- Git (optional, for cloning the repo)
+
+### 🧩 Python Dependencies
+
+Install these via `requirements.txt`:
+
+```bash
+requests>=2.31.0   # For API communication
+tkinter            # GUI (usually comes pre-installed with Python)
+uuid               # Wallet generation
+hashlib            # Password hashing
+json               # Data management
+To install all at once:
+
+bash
+Copy
+Edit
+pip install -r requirements.txt
+🧑‍💻 Installation Guide (All Platforms)
+🪟 Windows
+Download & install Python from python.org
+
+Open Command Prompt and run:
+
+bash
+Kopieren
+Bearbeiten
+git clone https://github.com/yourusername/mua-coin-app.git
+cd mua-coin-app
+pip install -r requirements.txt
+python mua_coin_app.py
+🍎 macOS
+Open Terminal and install Python using Homebrew:
+
+bash
+Kopieren
+Bearbeiten
+brew install python
+Clone and run the app:
+
+bash
+Kopieren
+Bearbeiten
+git clone https://github.com/yourusername/mua-coin-app.git
+cd mua-coin-app
+pip3 install -r requirements.txt
+python3 mua_coin_app.py
+🐧 Linux (Ubuntu/Debian/Fedora/etc.)
+Install Python:
+
+bash
+Kopieren
+Bearbeiten
+sudo apt update
+sudo apt install python3 python3-pip
+Clone and run:
+
+bash
+Kopieren
+Bearbeiten
+git clone https://github.com/yourusername/mua-coin-app.git
+cd mua-coin-app
+pip3 install -r requirements.txt
+python3 mua_coin_app.py
